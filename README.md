@@ -16,3 +16,7 @@ This is an Hexagon service created from a template.
 ## Gradle wrapper setup
 
 You can change Gradle version in `gradle/wrapper/gradle-wrapper.properties`.
+
+# Steps
+
+1. Create repo from `gradle_starter` template project
