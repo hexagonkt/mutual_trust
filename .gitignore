@@ -1,0 +1,29 @@
+
+# Gradle
+.gradle/
+build/
+local.*
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Idea
+.idea/
+out/
+*.iml
+
+# VS Code
+.vscode/
+
+# Runtime
+log/
+*.log
+*.hprof
+.attach_pid*
+hs_err_pid*
+
+# Others
+.DS_Store
+.java-version
