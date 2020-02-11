@@ -1,6 +1,6 @@
 
 FROM openjdk:11
-ENV PROJECT gradle_starter
+ENV PROJECT mutual_trust
 
 COPY build/install/$PROJECT /opt/$PROJECT
 WORKDIR /opt/$PROJECT

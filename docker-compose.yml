@@ -7,5 +7,6 @@ services:
     build:
       context: .
     ports:
-      - 9999:9090
+      - 9090:9090
+      - 9091:9091
 
