@@ -8,10 +8,6 @@ apply(from: "$gradleScripts/service.gradle")
 
 mainClassName = "org.example.GradleStarterKt"
 
-repositories {
-    maven { url  "https://dl.bintray.com/jamming/maven" }
-}
-
 dependencies {
     implementation("com.hexagonkt:http_server_jetty:$hexagonVersion")
     implementation("com.hexagonkt:http_client_ahc:$hexagonVersion")

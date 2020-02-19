@@ -12,4 +12,3 @@ jobs:
         with:
           java-version: 11
       - run: .github/pre-push.sh
-#      - run: ./gradlew clean build installDist
